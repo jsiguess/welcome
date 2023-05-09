@@ -1,0 +1,89 @@
+#forM {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  text {
+    padding: 10px;
+    border: 1px solid #137d5b;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  text {
+    height: 150px;
+  }
+  
+  input[type="password"],
+  text {
+    padding: 10px;
+    border: 1px solid #0c503a;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+  
+  text {
+    height: 150px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 152px;
+    background-color: #137d5b;
+    color: #fff;
+    border: 1px solid #0c503a;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #19a87b;
+  }
+  .button {
+    padding: 10px 73px;
+    background-color: #137d5b;
+    color: #fff;
+    border: 1px solid #0c503a;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 5px;
+  }
+
+  .buttoncont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Add this line */
+    height: 10vh; /* Add this line */
+  }
+  
+  .button:hover {
+    background-color: #19a87b;
+  }
+
+#title{
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

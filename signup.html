@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="design.css">
+        <link rel="stylesheet" type="text/css" href="global.css">
+        <div id="title"><p>Enter your information and register below</p></div>
+        <script type="text/php" src="signup.php"></script>
+    </head>
+    <body>
+        <div id="forM">
+                <form method="post" action="signup.php">
+                <input type="text" id="dispname" name="dispname" placeholder="Full name" required><br>
+
+                <input type="text" id="idnum" name="idnum" placeholder="eSIS number" required><br>
+
+                <input type="password" id="pass" name="pass" placeholder="Password" required><br>
+                    
+                <input type="password" id="conpass" name="conpass" placeholder="Confirm password"><br>
+                    
+                <input type="submit" id="registeer" value="Register">
+            </form>
+        </div>
+    </body>
+</html>

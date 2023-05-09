@@ -1,0 +1,45 @@
+.buttondiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Add this line */
+    height: 30vh; /* Add this line */
+  }
+  
+  .button {
+    padding: 10px 10px;
+    background-color: #137d5b;
+    color: #fff;
+    border: 1px solid #0c503a;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 5px;
+  }
+  
+  .button:hover {
+    background-color: #19a87b;
+  }
+
+#title{
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Add this line */
+    height: 30vh; /* Add this line */
+}
+.lessertitle{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+    
+    height: 0vh; /* Add this line */
+}
